@@ -3,7 +3,7 @@
     height: 300px;
 }
 .shrek_bg {
-    left: calc(100% - 50% + 0px);
+    right: 10px;
     width: 50%;
     height: 100%;
     position: absolute;
@@ -12,21 +12,32 @@
 .text1 {
     font-family: Comic Sans MS, Comic Sans, cursive;
     color: #e8e8e8;
-    top: 263px;
-    left: 30.3px;
-    width: 450px;
+    -webkit-text-stroke: 2px #000000;
+    top: 5%;
+    left: 10px;
+    width: 50%;
     text-align: center;
     position: absolute;
     display: table;
 }
 .text2 {
-    font-size: 16px;
+    font-size: 20px;
     font-family: Comic Sans MS, Comic Sans, cursive;
-    color: #8b8b8b;
-    top: 310px;
-    left: 140px;
-    width: 350px;
-    width: 250px;
+    color: #bababa;
+    -webkit-text-stroke: 1px #000000;
+    top: 20%;
+    left: 20px;
+    width: 50%;
     text-align: center;
     position: absolute;
+}
+.lel {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #e8e8e8;
+    top: 17%;
+    left: 10px;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    display: table;
 }
