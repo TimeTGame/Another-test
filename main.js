@@ -1,16 +1,17 @@
-function byId(e){return document.getElementById(e);}
-window.addEventListener('load', mInit, false);
-
-function mInit() {
-var tgt = byId('ImageButton1');
-tgt.secondSource = 'Shrek2.jpg';
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
 }
 
-function byId(e){return document.getElementById(e);}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
 
-function action() {
-var tgt = byId('ImageButton1');
-var tmp = tgt.src;
-tgt.src = tgt.secondSource;
-tgt.secondSource = tmp;
-};
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}

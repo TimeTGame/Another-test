@@ -1,0 +1,16 @@
+.text1 {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    -webkit-text-stroke: 1px #000000;
+    text-align: center;
+    position: absolute;
+}
+.lel {
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #e8e8e8;
+    top: 17%;
+    left: 10px;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    display: table;
+}
